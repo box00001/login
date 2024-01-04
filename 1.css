@@ -1,0 +1,67 @@
+#judge{
+    display: flex;
+    margin-left: 100px;
+    width: 290px;
+    justify-content: center;
+    margin-bottom: 60px;
+    /* width: 30%; */
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0,0.5);
+    overflow: hidden;
+    margin-top: 50px;
+    transition: 0.7s;
+    display: inline-block;
+    border:1px solid black
+    
+}
+#lawyer{
+    display: flex;
+    margin-left: 100px;
+    width: 290px;
+    justify-content: center;
+    margin-bottom: 60px;
+    /* width: 30%; */
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0,0.5);
+    overflow: hidden;
+    margin-top: 50px;
+    transition: 0.7s;
+    display: inline-block;
+    border:1px solid black
+    
+
+}
+#client{
+    display: flex;
+    margin-left: 100px;
+    width: 290px;
+    justify-content: center;
+    margin-bottom: 60px;
+    /* width: 30%; */
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0,0.5);
+    overflow: hidden;
+    margin-top: 50px;
+    transition: 0.7s;
+    display: inline-block;
+    border:1px solid black
+}
+#picsize{
+    height: 400px;
+}
+#classs{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+
+}
+body {
+    background-image:url('18106012.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(1.0); /* Increase or decrease the value for visibility */
+  }

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+  background: #e7eeec;
+  overflow: hidden;
+}
+::selection{
+  background: rgba(1, 18, 14, 0.3);
+}
+.container{
+  max-width: 440px;
+  padding: 0 20px;
+  margin: 170px auto;
+}
+.wrapper{
+  width: 100%;
+  background: #f2f9f7;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+}
+.wrapper .title{
+  height: 90px;
+  background: #eaf1f0;
+  border-radius: 5px 5px 0 0;
+  color: #1c0f0f;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form{
+  padding: 30px 25px 25px 25px;
+}
+.wrapper form .row{
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.wrapper form .row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid rgb(22, 7, 7);
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+form .row input:focus{
+  border-color: #041310;
+  box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+form .row input::placeholder{
+  color: #999;
+}
+.wrapper form .row i{
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  background: #000c0a;
+  border: 1px solid #e7f0ef;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form .pass{
+  margin: -8px 0 20px 0;
+}
+.wrapper form .pass a{
+  color: #e7efed;
+  font-size: 17px;
+  text-decoration: none;
+}
+.wrapper form .pass a:hover{
+  text-decoration: underline;
+}
+.wrapper form .button input{
+  color: #110101;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #f8fefd;
+  border: 1px solid #24a58b;
+  cursor: pointer;
+  margin-top: 5px;
+}
+form .button input:hover{
+  background: #4cb9a3;
+}
+.wrapper form .signup-link{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.wrapper form .signup-link a{
+  color: #060a09;
+  text-decoration: none;
+}
+form .signup-link a:hover{
+  text-decoration: underline;
+}
+body {
+  background-image:url('backg2.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(1.0); /* Increase or decrease the value for visibility */
+}
+#pass{
+  color: blue;
+  text-decoration: dotted;
+}
+#a{
+  color: rgb(1, 1, 16);
+  text-decoration: dotted;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+#hello{
+  transition: 0.5s;
+  border: 0.5px solid black;
+}
+#hello:hover{
+  box-shadow: 8px 8px 8px rgb(111, 111, 122);
+  border: none;
+}
+/* Rest of your styles */
